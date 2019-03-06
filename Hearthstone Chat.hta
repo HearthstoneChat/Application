@@ -1,0 +1,41 @@
+<!--
+Hearthstone.Chat
+@ 2019 Gregg Jewell
+-->
+<html lang="en">
+<head>
+<!-- VBScript: Set the default size and position of the HTML application -->
+<script language="VBScript">
+sub ResizeWindow()
+	w = 400
+	h = 330
+	window.ResizeTo w, h
+	window.MoveTo 0, (screen.availHeight - h) 'Bottom-left corner placement
+end sub
+ResizeWindow
+</script>
+<!-- Set the HTML application parameters -->
+<HTA:APPLICATION
+	APPLICATIONNAME="Hearthstone.Chat"
+	BORDERSTYLE="none"
+	CAPTION="yes"
+	CONTEXTMENU="no"
+	ICON="https://app.hearthstone.chat/icon.ico"
+	ID="HEARTHSTONE_CHAT"
+	INNERBORDER="no"
+	MAXIMIZEBUTTON="yes"
+	MINIMIZEBUTTON="yes"
+	NAVIGABLE="yes"
+	SCROLL="no"
+	SELECTION="yes"
+	SHOWINTASKBAR="yes"
+	SINGLEINSTANCE="no"
+/>
+</head>
+<body>
+<!-- Javacript: Redirect to the application's web launcher -->
+<script language="Javascript">
+window.location = "https://app.hearthstone.chat";
+</script>
+</body>
+</html>
