@@ -41,7 +41,7 @@ This stems from two issues:
 
 "Why do I start in a chat room as soon as I open the application?"
 
-This is a residual effect from your last game logged by Hearthstone. The advantage of this feature is you can open the application after a game has started and enter the room immediately. *With that said, I plan to continue working on the code to diffierentiate between a current game and an old game. Ideally, you should not enter a chat room of an old game.*
+This is a residual effect from it reading your last game logged by Hearthstone. The advantage of this feature is you can open the application after a game has started and enter a chat room with that opponent immediately. *With that said, I plan to continue working on the code to diffierentiate between a current game and an old game. Ideally, you should not enter a chat room of an old game.*
 
 **Author**
 
