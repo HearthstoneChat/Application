@@ -1,7 +1,7 @@
 # Hearthstone Chat
-A lightweight third-party chat application for Hearthstone.
+A chat application for Hearthstone, instantly chat with opponent also running this application.
 
-*One-file download. No installation required. No registration required. No setup required. No logs stored.*
+*Only one file to download, no installation is required, no registration is required, no setup is required, no chat logs are stored.*
 
 **How It Works**
 
