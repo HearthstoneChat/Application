@@ -32,6 +32,9 @@ The window is resizable.
 
 **Troubleshooting**
 
+"The game started but my opponent didn't enter chat."
+* This just means your opponent is not running the application.
+
 "My chat window is blank, even when I'm playing games."
 
 This stems from two issues:
