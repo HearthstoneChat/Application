@@ -38,8 +38,8 @@ The window is resizable.
 "My chat window is blank, even when I'm playing games."
 
 This stems from two issues:
-* The application couldn't find the location of your hearthstone log.config file normally in your %localappdata%\Blizzard\Hearthstone directory. If your directory is different than above, please send me full path to add to the white list.
-* The application couldn't find the location of your hearthstone Power.log file normally in %PROGRAM FILES%\Hearthstone\Logs or %PROGRAM FILES (x86)%\Hearthstone\Logs. If your directory is different than above, please send me full path to add to the white list.
+* The application couldn't find the location of your hearthstone log.config file normally in your %localappdata%\Blizzard\Hearthstone directory. If your HS appdata directory is different than above, please send me the full path to add to the white list.
+* The application couldn't find the location of your hearthstone Power.log file normally in %PROGRAM FILES%\Hearthstone\Logs or %PROGRAM FILES (x86)%\Hearthstone\Logs. If your HS logs directory is different than above, please send me the full path to add to the white list.
 
 **Author**
 
