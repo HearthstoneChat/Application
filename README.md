@@ -39,6 +39,10 @@ This stems from two issues:
 * The application couldn't find the location of your hearthstone log.config file normally in your %localappdata%\Blizzard\Hearthstone directory. If your HS appdata directory is different than above, please send me the full path to add to the white list.
 * The application couldn't find the location of your hearthstone Power.log file normally in %PROGRAM FILES%\Hearthstone\Logs or %PROGRAM FILES (x86)%\Hearthstone\Logs. If your HS logs directory is different than above, please send me the full path to add to the white list.
 
+"Why do I start in a chat room as soon as I open the application?"
+
+This is a residual effect from your last game logged by Hearthstone. The advantage of this feature is you can open the application after a game has started and enter the room immediately. *With that said, I plan to continue working on the code to diffierentiate between a current game and an old game. Ideally, you should not enter a chat room of an old game.*
+
 **Author**
 
 Gregg Jewell | Gatekeeper#1310 (NA Server)
