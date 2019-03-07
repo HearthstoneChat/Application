@@ -33,7 +33,7 @@ The window is resizable.
 **Troubleshooting**
 
 "The game started but my opponent didn't enter chat."
-* This just means your opponent is not running the application.
+* This just means your opponent isn't running the application.
 
 "My chat window is blank, even when I'm playing games."
 
