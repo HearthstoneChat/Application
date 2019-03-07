@@ -20,8 +20,8 @@ The window is resizable.
 
 * Header
   * The header contains the name of your current opponent. Clicking on it copies their BattleTag to your clipboard.
-  * Next to your opponent's name is a red 'block' icon. Clicking the icon will temporarily block your opponent's messages (for only this session). When you click the icon, your opponent's status icon and name will become red. You'll also see a system message in the chat room. Clicking on the now white 'block' icon again unblocks your opponent's messages and restores their status to normal.
-  * Whenever you get a new message, a sound will alert by default. If you don't want this sound, click on the 'speaker' icon to toggle this sound on/off.
+  * Next to your opponent's name is a red 'ban' icon. Clicking the icon will temporarily block your opponent's messages (for only this session). When you click the icon, your opponent's status icon and name will become red. You'll also see a system message in the chat room. Clicking on the now white 'ban' icon again unblocks your opponent's messages and restores their status to normal.
+  * Whenever you get a new message, a sound will play by default. If you don't want this sound, click on the 'speaker' icon to toggle this sound on/off. *If you don't see a sound icon, it means the application was unable to locate your log.config directory (see **Troubleshooting** below).*
 
 * Chat Room
   * Your messages are gold and remain in the chat room for 5 minutes.
