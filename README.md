@@ -1,7 +1,5 @@
 # Hearthstone Chat
-Instantly chat with Hearthstone opponents that also have this application. *Only one file needs to be downloaded, no installation is required, no registration is required, no setup is required, no chat logs are stored, automatic updates.*
-
-*On Windows Only.*
+Instantly chat with Hearthstone opponents that also have this application. *Only one file needs to be downloaded, no installation is required, no registration is required, no setup is required, no chat logs are stored, automatic updates, on Windows only.*
 
 **Getting Started**
 
