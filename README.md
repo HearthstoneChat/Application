@@ -3,7 +3,7 @@ Instantly chat with Hearthstone opponents that also have this application. *Only
 
 **Getting Started**
 
-* Download the Hearthstone Chat application (only one .hta file). The icon is optional as your application's local shortcut icon.
+* Download the Hearthstone Chat application (only one .hta file). The icon is optional to use for your application's shortcut icon.
 * Open Hearthstone and the Hearthstone Chat application, in any order.
 * The application will configure a Hearthstone log file if one doesn't already exist.
 * Whenever you enter a new game, the application will automatically place you in a unique chat room with your opponent. If you don't see your opponent also enter the chat room, that means they don't have this application running.
