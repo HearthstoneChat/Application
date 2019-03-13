@@ -1,0 +1,101 @@
+/* Import Proxima Nova Font */
+@import url('fonts.css');
+
+/* HTML Elements */
+* {
+	box-sizing: border-box;
+	font-family: proxima-nova,sans-serif;
+	margin: 0;
+	outline: none;
+	overflow-x: hidden;
+	padding: 0;
+	
+}
+html, body {
+	height: 100vh;
+	width: 100vw;
+}
+
+header {
+	align-items: center;
+	cursor: default;
+	display: flex;
+	font-size: 24px;
+	font-weight: 600;
+	height: 50px;
+	padding: 0 15px 0 15px;
+	width: 100%;
+}
+
+#banIcon svg {
+	cursor: pointer;
+	height: 14px;
+	margin-left: 10px;
+	min-width: 14px;
+	width: 14px;
+}
+
+#chat {
+	border: none;
+	width: 100%;
+	cursor: default;
+	height: calc(100% - 100px); /* 100% - 50px x 2 (header+footer) */
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding: 10px 0 10px 10px;
+}
+
+.chat-message {
+	padding: 5px;
+	padding-right: 10px;
+	border-radius: 5px;
+}
+.chat-message-hidden { display: none !important; }
+.chat-message-me {
+	font-size: 18px;
+	font-weight: 600;
+}
+.chat-message-opponent {
+	font-size: 18px;
+	font-weight: 600;
+}
+.chat-message-innkeeper {
+	font-size: 18px;
+	font-weight: 600;
+}
+.chat-message-time {
+	font-size: 16px;
+	font-weight: 600;
+	margin-left: 10px;
+}
+.chat-message-text-user {
+	font-size: 18px;
+	font-weight: 400;
+	margin-top: 3px;
+}
+.chat-message-text-innkeeper {
+	font-size: 18px;
+	font-weight: 400;
+	margin-top: 3px;
+}
+
+/* Message */
+#message {
+	border-radius: 3px;
+	font-size: 17px;
+	font-weight: 400;
+	height: 36px;
+	padding: 0 50px 0 10px;
+	width: 100%;
+	outline: none;
+}
+
+::-ms-clear { display: none; }
+
+footer {
+	height: 50px;
+	padding: 5px;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}

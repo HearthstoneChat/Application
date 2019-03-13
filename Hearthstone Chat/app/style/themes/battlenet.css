@@ -1,0 +1,45 @@
+body {
+	background-color: #293c5a;
+	scrollbar-arrow-color: #293c5a;
+	scrollbar-highlight-color: #293c5a;
+	scrollbar-shadow-color: #293c5a;
+	scrollbar-base-color : #293c5a;
+	scrollbar-track-color: #293c5a;
+	scrollbar-face-color: #495973;
+	scrollbar-3dlight-color: #293c5a;
+	scrollbar-darkshadow-color: #293c5a;
+}
+
+header {
+	background-color: #1d2c45;
+	border-bottom: solid 1px #455773;
+	color: #f5f8fa;
+}
+
+.bannedUser {
+	color: #ff7373;
+	text-decoration: line-through;
+}
+
+#chat { background-color: #293c5a; }
+.chat-message:hover { background-color: #2d405d; }
+.chat-message-me { color: #7dbef7; }
+.chat-message-opponent { color: #f5f8fa; }
+.chat-message-innkeeper { color: #48bdef; }
+.chat-message-time { color: #54637b; }
+.chat-message-text-user { color: #d6d7d8; }
+.chat-message-text-innkeeper { color: #48bdef; }
+
+#message {
+	background-color: #141e2d;
+	border: solid 1px #575f6b;
+}
+#message:focus, #message:active { border: solid 1px #1f5c94; }
+:-ms-input-placeholder { color: #535353 !important; }
+
+footer {
+	background-color: #293c5a;
+	border-top: solid 1px #455773;
+}
+
+.color-innkeeper { color: #48bdef; }

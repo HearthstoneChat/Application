@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Hearthstone Chat</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=11,chrome=1">
+	<link id="style" rel="stylesheet" type="text/css" href="style/style.css">
+	<link id="theme" rel="stylesheet" type="text/css" href="style/themes/hearthstone.css">
+	<!-- Javacript: Read chat.config file and apply application settings -->
+	<script language="Javascript" src="scripts/configure.js"></script>
+</head>
+<body onunload="javascript:return Logout();">
+
+<header>
+	<div id="opponentName"></div>
+	<div id="banIcon" onclick="javascript:BanOpponent();"></div>
+</header>
+
+<!-- Chat Room -->
+<div id="chat"></div>
+
+<footer>
+	<!-- Message Texbox -->
+	<form id="message-form" method="post" action="https://app.hearthstone.chat/message2.php" target="message-iframe" onsubmit="javascript:return SendMessage();">
+		<input type="hidden" id="sender" name="sender" tabindex="-1">
+		<input type="hidden" id="recipient" name="recipient" tabindex="-1">
+		<input type="text" id="message" name="message"  placeholder="Type a message..." tabindex="1">
+		<input type="hidden" id="logOut" name="logOut" tabindex="-1">
+		<input type="submit" style="display:none" tabindex="-1">
+	</form>
+</footer>
+
+<!-- Hidden <iframe>s for client-enabled PHP functions -->
+<iframe id="chat-iframe" name="chat-iframe" application="yes" style="display:none"></iframe>
+<iframe id="message-iframe" name="message-iframe" application="yes" style="display:none"></iframe>
+
+<!-- Javacript: Add current version to the application's titlebar -->
+<script language="javascript">document.title += " v" + getCookie("appVersion");</script>
+
+<!-- Javacript: Apply application's theme -->
+<script language="javascript">
+if (getCookie("appTheme") != '' && oFSO.FileExists(oFSO.GetAbsolutePathName("app/style/themes/" + getCookie("appTheme") + ".css"))) {
+	document.getElementById("theme").href = "style/themes/" + getCookie("appTheme") + ".css";
+}
+</script>
+
+<!-- Javascript: Validate message before sending it to the chat server -->
+<script language="javascript" src="scripts/message.js"></script>
+
+<!-- Javascript: Application actions -->
+<script language="javascript" src="scripts/actions.js"></script>
+
+<!-- Javascript: Scan the Power.log file (5 second loop) -->
+<script language="javascript" src="scripts/powerlog.js"></script>
+</body>
+</html>
