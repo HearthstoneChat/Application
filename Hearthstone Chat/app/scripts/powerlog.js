@@ -53,7 +53,7 @@ function ReadPowerLog(powerlog) {
 			//document.getElementById("opponentName").innerHTML = recipient.split("#")[0];
 			document.getElementById("opponentName").innerHTML = recipient;
 			
-			url = encodeURI("https://app.hearthstone.chat/chat2.php?sender=" + sender + "&recipient=" + recipient);
+			url = encodeURI("https://app.hearthstone.chat/chat.php?sender=" + sender + "&recipient=" + recipient);
 			
 			// Add chat.config settings to url
 			url += "&appSounds=" + getCookie("appSounds");
